@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quoctuan.quanlyketquatrave.activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtA"
+        android:text="Nhập a : "
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtA"
+        android:id="@+id/editA"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editA"
+        android:id="@+id/txtB"
+        android:text="Nhập b : "
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtB"
+        android:id="@+id/editB"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editB"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnxuLy"
+        android:text="Xử lý lấy USCLN"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnxuLy"
+        android:id="@+id/txtKetQua"
+        android:textSize="25dp"
+        android:hint="Kết quả ở đây"
+        />
+
+</RelativeLayout>
